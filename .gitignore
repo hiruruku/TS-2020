@@ -250,4 +250,7 @@ fabric.properties
 # Ignore all local history of files
 .history
 
+### custom
+package.json
+package-lock.json
 # End of https://www.gitignore.io/api/node,linux,macos,phpstorm,visualstudiocode
