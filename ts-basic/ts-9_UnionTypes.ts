@@ -14,8 +14,8 @@ function combine(input1: number | string, input2: number | string) {
     return result;
 }
 
-const combinedAges = combine(30, 26);
+const combinedAges = combine(10, 41);
 console.log(combinedAges);
 
-const combinedNames = combine("Max", "Anna");
+const combinedNames = combine("bakabon", "papa");
 console.log(combinedNames);
