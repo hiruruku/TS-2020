@@ -16,7 +16,9 @@ if(typeof userInput === 'string') {
   userName = userInput;
 }
 /**
- * 
+ * never型
+ * () => {while(true){}};無限ループや、エラーを投げるだけなど、
+ * 決して'}'に到達しない、戻り値が永遠に帰らない型。
  */
 function generateError(message: string, code: number): never{
   throw { message: message,errorCode: code };
