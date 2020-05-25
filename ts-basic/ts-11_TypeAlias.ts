@@ -46,17 +46,16 @@ const combinedNames_v2 = combineEvolution("bakabon", "papa", "as-text");
 console.log(combinedNames_v2); //結果:bakabonpapa
 
 /**
- * 24. Type Aliases　はobjectも代入できる
+ * Type Aliases　はobjectも代入できる
 */
-//Type Aliase にobject
-//FROM
+//FROM Type Alias　使用前
 function greet_1( user: { name: string; age: number }) {
     console.log('Hi, I am ' + user.name);
   }
   function isOlder_1(user: { name: string; age: number }, checkAge: number) {
     return checkAge > user.age;
   }
-//TO
+//TO　Type　Alias 使用
 //Type Aliase使用
 type User = { name: string; age: number };
 /**
