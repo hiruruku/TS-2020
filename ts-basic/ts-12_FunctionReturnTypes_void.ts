@@ -14,7 +14,7 @@ function printResult(num: number): void {
 }
 //2.TSにもundefined型はある。
 //但し、returnしないとエラーになる。
-function printResult_2(num: number): undefined {
+function printResult_undefined(num: number): undefined {
     console.log("Result: " + num);
     return;
 }
