@@ -26,4 +26,4 @@ const ts4num2 = 2.8;
 const printRet = true;
 let retPhrase = 'Result is: ';
 
-ts4add(ts4num1, ts4num2, printResult, resultPhrase);
+ts4add(ts4num1, ts4num2, printRet, retPhrase);

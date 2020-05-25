@@ -1,6 +1,8 @@
 /**
- *　Union Type どちらかの値をとる。集合的には、両方OK。
- * 下記はruntime時（JS）に、typeofでチェックが入るようにしている。
+ *　Union Type どちらかの値をとる。
+ *  uniontypeに+演算子は使えないerror表示が出るが、
+ * どちらか一方によせれば大丈夫なことは知っている。
+ * 下記はruntime時（JS）に、typeofでチェックが入るようにする。
  * @param input1 number | string
  * @param input2 number | string
  */
