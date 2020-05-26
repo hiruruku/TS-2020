@@ -7,6 +7,13 @@
 </head>
 <body>
 <title>Understanding TypeScript</title>
-<script src="app.js" defer></script>
+<!-- TSでクライアントコードをdebugしたい場合、
+  1.tsconfig.jsonでsourcemapをtrueにし、コンパイル
+  2.launch.json でindex.htmlファイルを読み込むよう設定する　
+  3.デバッグしたいTSファイルに該当する、コンパイル後のJSファイルを読み込設定
+　4. visual studio code でCrome Debuggerを起動、
+　　editorで、TSファイルにブレークポイントを設定し、F5キー 　-->
+
+<script src="dist/ts-basic/ts-11_type-aliases.js" defer></script>
 </body>
 </html>
