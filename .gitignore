@@ -251,8 +251,11 @@ fabric.properties
 .history
 
 ### custom
+dist
+stash
 package.json
 package-lock.json
+tsconfig.json
 *.js
 # End of https://www.gitignore.io/api/node,linux,macos,phpstorm,visualstudiocode
 

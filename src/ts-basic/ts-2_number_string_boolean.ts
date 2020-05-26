@@ -14,7 +14,7 @@ var ts2add = function (n1: number, n2: number,showResult:boolean , phrase: strin
 
 const ts2num1 = 5; //number 内部的にはdoubleなので、5.0でも同じ
 const ts2num2 = 2.8;
-const printResult = true;　//boolean
+const print_Result = true;　//boolean
 const resultPhrase = 'Result is:';
 
-ts2add(ts2num1, ts2num2,printResult,resultPhrase);
+ts2add(ts2num1, ts2num2,print_Result,resultPhrase);
